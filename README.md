@@ -10,6 +10,7 @@ This project explores the application of machine learning for predictive mainten
 Key Features:
 
 MATLAB Simulations:
+
 •	Simulates geartrain faults with varying efficiencies (0.05-0.3) and wind speeds (mean 10-20 m/s, std 2.5).
 •	Tracks generated power and rotor speed (RPM) for 140 seconds.
 •	Generates wave graphs of simulated outputs.
