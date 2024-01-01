@@ -63,9 +63,6 @@ Steps:
 •	The model will predict the wind turbine's fault severity (mild or highly faulty).
 
 
-Contributing:
-
-This project is currently under development. Contributions are welcome in the form of code improvements, model enhancements, and documentation updates. Please refer to the CONTRIBUTING.md file for submission guidelines.
 
 License:
 
