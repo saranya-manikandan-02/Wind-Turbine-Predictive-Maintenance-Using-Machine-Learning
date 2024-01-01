@@ -1,7 +1,7 @@
 # Wind-Turbine-Predictive-Maintenance-Using-Machine-Learning
-This project explores the application of machine learning for predictive maintenance of wind turbines, focusing on the crucial geartrain component. With 76% of wind turbine failures occurring in the gearbox, this study investigates its fault scenarios and proposes a predictive maintenance system.
+This project explores the application of machine learning for predictive maintenance of wind turbines, focusing on the crucial geartrain component. With 76% of wind turbine failures occurring in the gearbox, this study investigates its fault scenarios and proposes a predictive maintenance system. Our project emphasis lies in the adaptability of the system in addressing faults. For highly faulty scenarios, our implementation allowed seamless gear changes to optimize performance and mitigate risks. Conversely, in cases of mild faults, the system prioritized continued operation, thereby extending operational longevity and maximizing efficiency.
 
-Project Title: Predictive Maintenance of Wind Turbines using Machine Learning
+Project Title: Wind Turbine Predictive Maintenance Using Machine Learning
 
 Description:
 
@@ -32,10 +32,15 @@ o	Simulink add-ons:
 •	Simscape Fluids
 •	Simscape Multibody
 •	Stateflow
+
+
+o	MATLAB add-ons:
 •	MATLAB Signal Processing Toolbox
 •	MATLAB Computer Vision Toolbox
 •	MATLAB Deep Learning Toolbox
 •	MATLAB Statistics and Machine Learning Toolbox
+
+
 o	Hardware Requirements:
 •	Computer with sufficient processing power for MATLAB simulations 
 
@@ -43,11 +48,17 @@ o	Hardware Requirements:
 Steps:
 
 •	Download the project files from the repository.
+
 •	Ensure you have installed the required software and add-ons.
+
 •	Run the MATLAB simulation script with initial conditions (geartrain faults with varying efficiencies (0.05-0.3) and wind speeds (mean 10-20 m/s, std 2.5)).
+
 •	Process the generated data into Excel sheets and save them in the “data_from_simulation” folder.
+
 •	Run the MATLAB script for spectrograph analysis and convert the data into images which is present in the folder “data_from_simulation”.
+
 •	Feed the images into the CNN model for fault classification after saving them in separate folders by class.
+
 •	The model will predict the wind turbine's fault severity (mild or highly faulty).
 
 
