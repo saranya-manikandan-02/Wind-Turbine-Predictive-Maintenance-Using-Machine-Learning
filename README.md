@@ -72,3 +72,4 @@ Hyperlinks:
 
 •	Wind Turbine model: https://www.mathworks.com/help/sps/ug/wind-turbine.html
 (The mentioned model is modified and uploaded in the folder “simulation”)
+youtube video explaining our project: https://youtu.be/thU06Blt-uU
